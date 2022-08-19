@@ -35,5 +35,5 @@ override.tf.json
 terraform.rc
 
 #variables 
-terraform.tfvars
-.terraform/.gitignore
+# terraform.tfvars
+# .terraform/.gitignore
