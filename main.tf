@@ -153,6 +153,7 @@ resource "aws_instance" "firstEc2" {
               find /var/www -type d -exec chmod 2775 {} \;
               find /var/www -type f -exec chmod 0664 {} \;
               echo "<?php phpinfo(); ?>" > /var/www/html/phpinfo.php
+              sudo bash -c 'echo your very first web server > /var/www/html/index.html'
               EOF
     tags = {
       Name = "web-server"
