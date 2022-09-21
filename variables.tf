@@ -1,5 +1,4 @@
 #variables.tf
-#test
 
 variable "access_key"{
     description = "aws access key"
